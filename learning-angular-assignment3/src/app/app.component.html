@@ -1,0 +1,3 @@
+<button (click)=togglePara()> display details </button>
+<p *ngIf="showParagraph"> this is a hide and show paragraph. when clicking on the button above,  dispaly of this paragraph toggles </p>
+<h2 *ngFor="let item of totalClicks" [ngClass]="{blue: item >= 5}"> click no: {{ item }}  </h2>
